@@ -1,4 +1,5 @@
 language: node_js
+
 node_js:
   - "0.10"
 
@@ -10,5 +11,6 @@ before_script:
   - rm -R node_modules/utilities
   - npm install https://github.com/mde/model/archive/master.tar.gz
   - npm install https://github.com/mde/utilities/archive/master.tar.gz
+
 
 script: node_modules/jake/bin/cli.js test --trace
