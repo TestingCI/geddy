@@ -3,8 +3,10 @@ language: node_js
 node_js:
   - "0.10"
 
+
 before_install:
   - npm update -g npm
+
 
 before_script:
   - rm -R node_modules/model
