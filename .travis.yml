@@ -16,4 +16,4 @@ before_script:
 
 
 script: node_modules/jake/bin/cli.js test --trace
-build_image: shippable/minv2:beta 
+#build_image: shippable/minv2:beta 
